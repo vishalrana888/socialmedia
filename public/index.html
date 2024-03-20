@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media App</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Social Media App</h1>
+  
+  <!-- Image Upload Section -->
+  <div id="image-upload">
+    <h2>Post Link:</h2>
+    <input type="text" id="username" placeholder="Your Name">
+    <input type="text" id="image-url" placeholder="Enter image URL">
+    <textarea id="image-description" placeholder="Enter image description"></textarea>
+    <button onclick="uploadImage()">Upload</button>
+  </div>
+
+  <!-- Posts Section -->
+  <div id="posts">
+    <h2>Posts</h2>
+    <div id="post-list">
+      <!-- Post items will be dynamically added here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

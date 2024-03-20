@@ -1,0 +1,97 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Image Upload section styles */
+  #image-upload {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #image-upload input[type="text"],
+  #image-upload textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  #image-upload button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #image-upload button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Posts section styles */
+  #posts {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .post-item {
+    margin-bottom: 20px;
+  }
+  
+  .post-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .post-item p {
+    margin-bottom: 10px;
+  }
+  
+  .post-item input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .post-item button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .post-item button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Comments section styles */
+  .comments {
+    margin-top: 10px;
+  }
+  /* Set max-width for images */
+.post img {
+  max-width: 100%;
+  max-height: 300px; /* Adjust the maximum height as needed */
+  height: auto;
+  margin-bottom: 10px;
+}
